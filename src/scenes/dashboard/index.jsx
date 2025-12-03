@@ -7,7 +7,7 @@ import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
-import LineChart from "../../components/LineChart";
+import TopArtists from "../../components/TopArtists";
 import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
 import PieChart from "../../components/PieChart";
@@ -162,7 +162,7 @@ const Dashboard = () => {
             </Box>
           </Box>
           <Box height="250px" m="-20px 0 0 0">
-            <LineChart isDashboard={true} />
+            <TopArtists isDashboard={true} />
           </Box>
         </Box>
         <Box
@@ -246,7 +246,7 @@ const Dashboard = () => {
             Band Play Count
           </Typography>
           <Box height="250px" mt="-20px">
-            <BarChart isDashboard={true} />
+            <TopArtists isDashboard={true} />
           </Box>
         </Box>
         <Box
