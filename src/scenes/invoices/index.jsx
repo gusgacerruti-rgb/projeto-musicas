@@ -17,7 +17,7 @@ const Invoices = () => {
     },
     {
       field: "phone",
-      headerName: "Phone Number",
+      headerName: "Sites",
       flex: 1,
     },
     {
@@ -44,7 +44,7 @@ const Invoices = () => {
 
   return (
     <Box m="20px">
-      <Header title="INVOICES" subtitle="List of Invoice Balances" />
+      <Header title="CONCERTS" subtitle="Info and Balances" />
       <Box
         m="40px 0 0 0"
         height="75vh"
