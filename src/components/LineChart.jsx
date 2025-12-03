@@ -43,14 +43,14 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
           },
         },
       }}
-      colors={isDashboard ? { datum: "color" } : { scheme: "nivo" }} // added
+      colors={["#3498db", "#e74c3c", "#9b59b6"]}
       margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
       xScale={{ type: "point" }}
       yScale={{
         type: "linear",
         min: "auto",
         max: "auto",
-        stacked: true,
+        stacked: false,
         reverse: false,
       }}
       yFormat=" >-.2f"
@@ -62,17 +62,17 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         tickSize: 0,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "transportation", // added
+        legend: isDashboard ? undefined : "Month",
         legendOffset: 36,
         legendPosition: "middle",
       }}
       axisLeft={{
         orient: "left",
-        tickValues: 5, // added
+        tickValues: 5,
         tickSize: 3,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "count", // added
+        legend: isDashboard ? undefined : "Song Play Count",
         legendOffset: -40,
         legendPosition: "middle",
       }}

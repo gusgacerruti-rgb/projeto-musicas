@@ -141,7 +141,7 @@ export const themeSettings = (mode) => {
               light: colors.grey[100],
             },
             background: {
-              default: "#06000cff",
+              default: "#262429ff",
             },
           }
         : {
