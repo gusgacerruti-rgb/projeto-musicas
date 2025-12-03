@@ -6,7 +6,6 @@ import Header from "../../components/Header";
 import TopArtists from "../../components/TopArtists";
 import Popularity from "../../components/Popularity";
 import Subgenres from "../../components/Subgenres";
-import StatBox from "../../components/StatBox";
 
 const Dashboard = () => {
   const theme = useTheme();
