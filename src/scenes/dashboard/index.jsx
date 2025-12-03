@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import TopArtists from "../../components/TopArtists";
 import Popularity from "../../components/Popularity";
 import Subgenres from "../../components/Subgenres";
+import MostPlayedBands from "../../components/MostPlayedBands";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -54,16 +55,9 @@ const Dashboard = () => {
                 Monthly Streams
               </Typography>
             </Box>
-            <Box>
-              <IconButton>
-                <DownloadOutlinedIcon
-                  sx={{ fontSize: "26px", color: colors.greenAccent[500] }}
-                />
-              </IconButton>
-            </Box>
           </Box>
           <Box height="250px" m="-20px 0 0 0">
-            <TopArtists isDashboard={true} />
+            <MostPlayedBands isDashboard={true} />
           </Box>
         </Box>
         <Box
