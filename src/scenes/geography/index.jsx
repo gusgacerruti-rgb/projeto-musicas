@@ -1,5 +1,5 @@
 import { Box, useTheme, Paper, Typography, List, ListItem, ListItemText, Divider } from "@mui/material";
-import GeographyChart from "../../components/GeographyChart";
+import Popularity from "../../components/Popularity";
 import Header from "../../components/Header";
 import { tokens } from "../../theme";
 import { mockGeographyData } from "../../data/mockData";
@@ -46,7 +46,7 @@ const Geography = () => {
           border={`1px solid ${colors.grey[100]}`}
           borderRadius="4px"
         >
-          <GeographyChart />
+          <Popularity />
         </Box>
 
         {/* Band List */}

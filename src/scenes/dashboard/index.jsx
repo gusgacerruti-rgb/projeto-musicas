@@ -8,9 +8,9 @@ import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
 import TopArtists from "../../components/TopArtists";
-import GeographyChart from "../../components/GeographyChart";
+import Popularity from "../../components/Popularity";
 import BarChart from "../../components/BarChart";
-import PieChart from "../../components/PieChart";
+import Subgenres from "../../components/Subgenres";
 import StatBox from "../../components/StatBox";
 
 const Dashboard = () => {
@@ -150,7 +150,7 @@ const Dashboard = () => {
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                Monthly Streams (Millions)
+                Monthly Streams
               </Typography>
             </Box>
             <Box>
@@ -230,7 +230,7 @@ const Dashboard = () => {
             Genre Distribution
           </Typography>
           <Box height="250px" mt="-20px">
-            <PieChart />
+            <Subgenres />
           </Box>
         </Box>
         <Box
@@ -263,7 +263,7 @@ const Dashboard = () => {
             Global Band Popularity
           </Typography>
           <Box height="200px">
-            <GeographyChart isDashboard={true} />
+            <Popularity isDashboard={true} />
           </Box>
         </Box>
       </Box>

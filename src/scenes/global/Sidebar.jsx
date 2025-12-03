@@ -198,7 +198,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Pie Chart"
+              title="Subgenres"
               to="/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
@@ -212,7 +212,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Geography Chart"
+              title="Popularity"
               to="/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}
