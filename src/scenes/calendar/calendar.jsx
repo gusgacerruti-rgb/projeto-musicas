@@ -21,7 +21,7 @@ const Calendar = () => {
   const [currentEvents, setCurrentEvents] = useState([]);
 
   const handleDateClick = (selected) => {
-    const title = prompt("Please enter a new title for your event");
+    const title = prompt("Please enter the band name for this concert");
     const calendarApi = selected.view.calendar;
     calendarApi.unselect();
 
@@ -39,7 +39,7 @@ const Calendar = () => {
   const handleEventClick = (selected) => {
     if (
       window.confirm(
-        `Are you sure you want to delete the event '${selected.event.title}'`
+        `Are you sure you want to delete the concert '${selected.event.title}'`
       )
     ) {
       selected.event.remove();
@@ -48,7 +48,7 @@ const Calendar = () => {
 
   return (
     <Box m="20px">
-      <Header title="Calendar" subtitle="Full Calendar Interactive Page" />
+      <Header title="Concert Calendar" subtitle="Schedule and Events" />
 
       <Box display="flex" justifyContent="space-between">
         {/* CALENDAR SIDEBAR */}
@@ -58,7 +58,7 @@ const Calendar = () => {
           p="15px"
           borderRadius="4px"
         >
-          <Typography variant="h5">Events</Typography>
+          <Typography variant="h5">Concerts</Typography>
           <List>
             {currentEvents.map((event) => (
               <ListItem
@@ -111,14 +111,44 @@ const Calendar = () => {
             eventsSet={(events) => setCurrentEvents(events)}
             initialEvents={[
               {
-                id: "12315",
-                title: "All-day event",
-                date: "2022-09-14",
+                id: "1",
+                title: "Bullet For My Valentine",
+                date: "2026-02-18",
               },
               {
-                id: "5123",
-                title: "Timed event",
-                date: "2022-09-28",
+                id: "2",
+                title: "Sleep Token",
+                date: "2026-03-15",
+              },
+              {
+                id: "3",
+                title: "Korn",
+                date: "2026-05-08",
+              },
+              {
+                id: "4",
+                title: "Avenged Sevenfold",
+                date: "2026-06-22",
+              },
+              {
+                id: "5",
+                title: "Linkin Park",
+                date: "2026-07-30",
+              },
+              {
+                id: "6",
+                title: "Imagine Dragons",
+                date: "2026-09-12",
+              },
+              {
+                id: "7",
+                title: "Bring Me The Horizon",
+                date: "2026-10-14",
+              },
+              {
+                id: "8",
+                title: "My Chemical Romance",
+                date: "2026-11-05",
               },
             ]}
           />
