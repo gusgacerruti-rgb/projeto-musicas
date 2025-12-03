@@ -320,43 +320,43 @@ export const mockTransactions = [
 export const mockBarData = [
   {
     band: "Sleep Token",
-    plays: 245,
-    playsColor: "hsl(229, 70%, 50%)",
+    songs: 75,
+    songsColor: "hsl(229, 70%, 50%)",
   },
   {
     band: "Avenged Sevenfold",
-    plays: 198,
-    playsColor: "hsl(296, 70%, 50%)",
+    songs: 36,
+    songsColor: "hsl(296, 70%, 50%)",
   },
   {
     band: "Korn",
-    plays: 176,
-    playsColor: "hsl(97, 70%, 50%)",
+    songs: 36,
+    songsColor: "hsl(97, 70%, 50%)",
   },
   {
     band: "Imagine Dragons",
-    plays: 162,
-    playsColor: "hsl(340, 70%, 50%)",
+    songs: 33,
+    songsColor: "hsl(340, 70%, 50%)",
   },
   {
     band: "Bullet For My Valentine",
-    plays: 154,
-    playsColor: "hsl(307, 70%, 50%)",
+    songs: 33,
+    songsColor: "hsl(307, 70%, 50%)",
   },
   {
     band: "My Chemical Romance",
-    plays: 148,
-    playsColor: "hsl(111, 70%, 50%)",
+    songs: 32,
+    songsColor: "hsl(111, 70%, 50%)",
   },
   {
     band: "Linkin Park",
-    plays: 139,
-    playsColor: "hsl(273, 70%, 50%)",
+    songs: 31,
+    songsColor: "hsl(273, 70%, 50%)",
   },
   {
     band: "Bring Me The Horizon",
-    plays: 125,
-    playsColor: "hsl(256, 70%, 50%)",
+    songs: 26,
+    songsColor: "hsl(256, 70%, 50%)",
   },
 ];
 

@@ -191,7 +191,7 @@ const Sidebar = () => {
               Charts
             </Typography>
             <Item
-              title="Bar Chart"
+              title="Most Played Bands"
               to="/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}

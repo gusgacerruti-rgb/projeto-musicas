@@ -9,7 +9,6 @@ import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
 import TopArtists from "../../components/TopArtists";
 import Popularity from "../../components/Popularity";
-import BarChart from "../../components/BarChart";
 import Subgenres from "../../components/Subgenres";
 import StatBox from "../../components/StatBox";
 
